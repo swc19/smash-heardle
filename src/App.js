@@ -48,12 +48,7 @@ function App() {
   }
 
   function getTodaysGame(random=false){
-    let todays_seed;
-    if(random){
-      todays_seed = Math.random();
-    } else {
-      todays_seed = getTodaysSeed();
-    }
+    let todays_seed = random ? Math.random() : getTodaysSeed();
     const value = seedrandom(todays_seed);
     const rng_game = Math.floor((value() * 5737 + 1233) % 6);
     switch(rng_game){
@@ -73,12 +68,7 @@ function App() {
   }
 
   function getTodaysSong(random=false){
-    let todays_seed;
-    if(random){
-      todays_seed = Math.random();
-    } else {
-      todays_seed = getTodaysSeed();
-    }
+    let todays_seed = random ? Math.random() : getTodaysSeed();
     const value = seedrandom(todays_seed);
     const todays_game = getTodaysGame(random);
     const rng_song = Math.floor((value() * 287333 + 231729) % all_songs[todays_game].songs.length);
@@ -115,7 +105,7 @@ function App() {
             if(j > 0 && split[j-1] === " " && j < split.length - 1 && split[j+1] === " "){
               split[j] = <span>&nbsp;<span className="bg-gray-400 text-black">{split[j]}</span>&nbsp;</span>;
             } else if(j > 0 && split[j-1] === " "){
-              split[j] = <span>&nbsp;<span className="bg-gray-400 text-black h-64">{split[j]}</span></span>;
+              split[j] = <span>&nbsp;<span className="bg-gray-400 text-black">{split[j]}</span></span>;
             } else if(j < split.length - 1 && split[j+1] === " "){
               split[j] = <span><span className="bg-gray-400 text-black">{split[j]}</span>&nbsp;</span>;
             } else {
