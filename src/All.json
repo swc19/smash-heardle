@@ -1,1108 +1,1689 @@
 {
     "64": {
         "id": [
-            "PL1Ldpec_OxhGp3Zm3zAx7RVHfEXmAT9h0"
+            "PLNvQcJ1tQe2SNlCK4zlbt3-uVL6727qm7"
         ],
         "name": "Super Smash Bros.",
         "songs": [
             {
-                "video_id": "E5p5qGFJOsQ",
-                "title": "Final Destination - Super Smash Bros."
-            },
-            {
-                "video_id": "kabEph2xcVs",
-                "title": "Saffron City - Super Smash Bros."
-            },
-            {
-                "video_id": "U_wS2JCsS7I",
-                "title": "Planet Zebes - Super Smash Bros."
-            },
-            {
-                "video_id": "tObIkq0bF5I",
-                "title": "Yoshi's Island - Super Smash Bros."
-            },
-            {
-                "video_id": "t5M1q3t3t3w",
-                "title": "Kongo Jungle - Super Smash Bros."
-            },
-            {
-                "video_id": "PDIwCwCFWV4",
-                "title": "Mushroom Kingdom - Super Smash Bros."
-            },
-            {
-                "video_id": "jTXYI_bMDto",
-                "title": "Dream Land - Super Smash Bros."
-            },
-            {
-                "video_id": "A7I2HOac-AA",
-                "title": "Peach's Castle - Super Smash Bros."
-            },
-            {
-                "video_id": "nZgAIYu6aec",
-                "title": "Hyrule Castle - Super Smash Bros."
-            },
-            {
-                "video_id": "2B9bAcoxSc8",
-                "title": "Sector Z - Super Smash Bros."
-            },
-            {
-                "video_id": "Atr6QSNLePw",
-                "title": "Break The Targets - Super Smash Bros."
-            },
-            {
-                "video_id": "KU44YTtGCJM",
-                "title": "Records - Super Smash Bros."
-            },
-            {
-                "video_id": "Knmsa4dLv7g",
-                "title": "Fighting Polygon Team - Super Smash Bros."
-            },
-            {
-                "video_id": "wn8-4vymRMU",
-                "title": "Menu - Super Smash Bros."
-            },
-            {
-                "video_id": "MN-M8maMBk4",
+                "video_id": "17mrpK8uKKI",
                 "title": "Opening - Super Smash Bros."
             },
             {
-                "video_id": "4yTUutolzyQ",
-                "title": "VS Results - Super Smash Bros."
+                "video_id": "QhOzTL8GHrI",
+                "title": "Menu - Super Smash Bros."
             },
             {
-                "video_id": "fKKhcOKx6oA",
-                "title": "1P Results - Super Smash Bros."
-            },
-            {
-                "video_id": "Pn4ClhAwGdg",
-                "title": "Metal Mario - Super Smash Bros."
-            },
-            {
-                "video_id": "CNJ-gnyMAH8",
-                "title": "Credits - Super Smash Bros."
-            },
-            {
-                "video_id": "mIq0UDdp1Pc",
+                "video_id": "E1a_71Xm0fI",
                 "title": "Character Select - Super Smash Bros."
             },
             {
-                "video_id": "ONfto43Tv8Q",
-                "title": "How To Play - Super Smash Bros."
+                "video_id": "D-ZryW6OlEg",
+                "title": "Peach's Castle - Super Smash Bros."
             },
             {
-                "video_id": "a4Az-fpc2W4",
+                "video_id": "1Lm7FJRTZrw",
+                "title": "Kongo Jungle - Super Smash Bros."
+            },
+            {
+                "video_id": "XWZx-lG9h4M",
+                "title": "Hyrule Castle - Super Smash Bros."
+            },
+            {
+                "video_id": "0ZeJkqC8tOs",
+                "title": "Planet Zebes - Super Smash Bros."
+            },
+            {
+                "video_id": "szQGN5A24hk",
+                "title": "Yoshi's Island - Super Smash Bros."
+            },
+            {
+                "video_id": "gYA4JDIo_K8",
+                "title": "Dream Land - Super Smash Bros."
+            },
+            {
+                "video_id": "q4TnPJSTjCE",
+                "title": "Sector Z - Super Smash Bros."
+            },
+            {
+                "video_id": "cYaoJAQZyVo",
+                "title": "Saffron City - Super Smash Bros."
+            },
+            {
+                "video_id": "D5tXGTwZg50",
+                "title": "Mushroom Kingdom - Super Smash Bros."
+            },
+            {
+                "video_id": "w_j1CGTCJMg",
+                "title": "How to Play - Super Smash Bros."
+            },
+            {
+                "video_id": "PE7JwG3FIdQ",
                 "title": "Training Mode - Super Smash Bros."
+            },
+            {
+                "video_id": "rQAybuXF8BY",
+                "title": "Character Introduction Screen - Super Smash Bros."
+            },
+            {
+                "video_id": "I5FJbtFTKq8",
+                "title": "Ness Wins ~ Battle Results - Super Smash Bros."
+            },
+            {
+                "video_id": "BHz9GJ5mJgo",
+                "title": "Meta Crystal - Super Smash Bros."
+            },
+            {
+                "video_id": "VzAf915pDEc",
+                "title": "Bonus Game - Super Smash Bros."
+            },
+            {
+                "video_id": "9gDXkiLTNtE",
+                "title": "Duel Zone - Super Smash Bros."
+            },
+            {
+                "video_id": "P1KxEBCQlco",
+                "title": "Final Destination - Super Smash Bros."
+            },
+            {
+                "video_id": "Mka8gVFHvpk",
+                "title": "All Clear - Super Smash Bros."
+            },
+            {
+                "video_id": "HlKqDjMGxrM",
+                "title": "Ending ~ Staff Roll - Super Smash Bros."
             }
         ]
     },
     "Melee": {
         "id": [
-            "PLAs1Kha_R9dIx9NZd_S80z4m_V2tT9OPb"
+            "PLNvQcJ1tQe2SPSFMT4FpmdOU4r8hk1MkC"
         ],
         "name": "Super Smash Bros. Melee",
         "songs": [
             {
-                "video_id": "0OhcV-hQRyw",
+                "video_id": "hFo5pMUP1Kk",
                 "title": "Opening - Super Smash Bros. Melee"
             },
             {
-                "video_id": "fI5AcN6eOSw",
+                "video_id": "rBlbP3QwZ5o",
                 "title": "Menu 1 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "W3Q324GWwj4",
-                "title": "Princess Peach's Castle [Super Mario Bros.] - Super Smash Bros. Melee"
+                "video_id": "_RFhFUCouMw",
+                "title": "Princess Peach's Castle - Super Smash Bros. Melee"
             },
             {
-                "video_id": "XQDI4H7HfY8",
-                "title": "Rainbow Cruise [Super Mario 64] - Super Smash Bros. Melee"
+                "video_id": "HZhogRZrCDk",
+                "title": "Rainbow Cruise - Super Smash Bros. Melee"
             },
             {
-                "video_id": "GM0bW9p_ons",
-                "title": "Kongo Jungle [DK Rap] - Super Smash Bros. Melee"
+                "video_id": "B7twngjfLRA",
+                "title": "Kongo Jungle - Super Smash Bros. Melee"
             },
             {
-                "video_id": "KxUrYZ02be4",
-                "title": "Jungle Japes [Super Smash Bros.] - Super Smash Bros. Melee"
+                "video_id": "3dSf6ZfKFdM",
+                "title": "Jungle Japes - Super Smash Bros. Melee"
             },
             {
-                "video_id": "fWkZlfR5P6E",
-                "title": "Great Bay [The Legend of Zelda] - Super Smash Bros. Melee"
+                "video_id": "-GE-vjeA9DM",
+                "title": "Great Bay - Super Smash Bros. Melee"
             },
             {
-                "video_id": "S5Xm55VFyj0",
-                "title": "Hyrule Temple [The Legend of Zelda] - Super Smash Bros. Melee"
+                "video_id": "9DDubsyWIOw",
+                "title": "Hyrule Temple - Super Smash Bros. Melee"
             },
             {
-                "video_id": "UppBxHraF-o",
-                "title": "Brinstar [Metroid] - Super Smash Bros. Melee"
+                "video_id": "sytDb7h4lxA",
+                "title": "Brinstar - Super Smash Bros. Melee"
             },
             {
-                "video_id": "iyZjl86LSp8",
-                "title": "Brinstar Depths [Metroid] - Super Smash Bros. Melee"
+                "video_id": "-lZTRF2cleM",
+                "title": "Brinstar Depths - Super Smash Bros. Melee"
             },
             {
-                "video_id": "zFZNKR7Kcps",
+                "video_id": "vO8-Nca8msA",
                 "title": "Yoshi's Story - Super Smash Bros. Melee"
             },
             {
-                "video_id": "FtXCT8oZ60E",
+                "video_id": "OmFbmGf_e70",
                 "title": "Yoshi's Island - Super Smash Bros. Melee"
             },
             {
-                "video_id": "80_v0pXheI8",
-                "title": "Fountain of Dreams [Kirby] - Super Smash Bros. Melee"
+                "video_id": "MgDHjDEK8Uk",
+                "title": "Fountain of Dreams - Super Smash Bros. Melee"
             },
             {
-                "video_id": "mrU1wFsrJME",
-                "title": "Green Greens [Kirby] - Super Smash Bros. Melee"
+                "video_id": "DZn4vvp3tUg",
+                "title": "Green Greens - Super Smash Bros. Melee"
             },
             {
-                "video_id": "0QhWCZ9_1N4",
-                "title": "Corneria [Star Fox] - Super Smash Bros. Melee"
+                "video_id": "yMrVWmL8K3E",
+                "title": "Corneria - Super Smash Bros. Melee"
             },
             {
-                "video_id": "bF28mASQlzw",
-                "title": "Venom [Star Fox] - Super Smash Bros. Melee"
+                "video_id": "PdZW2GuBUFk",
+                "title": "Venom - Super Smash Bros. Melee"
             },
             {
-                "video_id": "5wFKBVzfhk4",
+                "video_id": "WgANoJYZSFw",
                 "title": "Pok\u00e9mon Stadium - Super Smash Bros. Melee"
             },
             {
-                "video_id": "6YEunPKfkJc",
+                "video_id": "iOyI7A_5D78",
                 "title": "Pok\u00e9 Floats - Super Smash Bros. Melee"
             },
             {
-                "video_id": "Bre3Fh3hKwk",
-                "title": "Mute City [F-Zero] - Super Smash Bros. Melee"
+                "video_id": "CnE8Th7Jkgw",
+                "title": "Mute City - Super Smash Bros. Melee"
             },
             {
-                "video_id": "Y4X-L9C16S8",
-                "title": "Big Blue [F-Zero] - Super Smash Bros. Melee"
+                "video_id": "vfnWnaTvPiQ",
+                "title": "Big Blue - Super Smash Bros. Melee"
             },
             {
-                "video_id": "Gvv4RlClv4g",
-                "title": "Mother [Earthbound] - Super Smash Bros. Melee"
+                "video_id": "M1v8Mn6BSwk",
+                "title": "Mother - Super Smash Bros. Melee"
             },
             {
-                "video_id": "kAKZEWFY_IY",
+                "video_id": "vkwFaL0tR_4",
                 "title": "Earthbound - Super Smash Bros. Melee"
             },
             {
-                "video_id": "Gw0-nHOufWY",
-                "title": "Mushroom Kingdom [Super Mario Bros.] - Super Smash Bros. Melee"
+                "video_id": "bqGYf3CHM9A",
+                "title": "Mushroom Kingdom - Super Smash Bros. Melee"
             },
             {
-                "video_id": "XALAmDxoRRM",
-                "title": "Mushroom Kingdom Finale [Super Mario Bros.] - Super Smash Bros. Melee"
+                "video_id": "MDUguBqtasc",
+                "title": "Mushroom Kingdom Finale - Super Smash Bros. Melee"
             },
             {
-                "video_id": "DeiDyiXsynA",
-                "title": "Mushroom Kingdom II [Super Mario Bros.] - Super Smash Bros. Melee"
+                "video_id": "LeM8S8oAZNw",
+                "title": "Mushroom Kingdom II - Super Smash Bros. Melee"
             },
             {
-                "video_id": "78lAxenjZ-g",
-                "title": "Icicle Mountain [Ice Climber] - Super Smash Bros. Melee"
+                "video_id": "6VAEecQFQUc",
+                "title": "Icicle Mountain - Super Smash Bros. Melee"
             },
             {
-                "video_id": "y_OTv8rbx7g",
+                "video_id": "B4-5v6au0iU",
                 "title": "Flat Zone - Super Smash Bros. Melee"
             },
             {
-                "video_id": "LCZZenKy-bo",
-                "title": "Kongo Jungle [64] - Super Smash Bros. Melee"
+                "video_id": "lf_LzTojMIQ",
+                "title": "Kongo Jungle N64 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "aoNWj9yIg1w",
-                "title": "Yoshi's Island [64] - Super Smash Bros. Melee"
+                "video_id": "_EOaUECQjoc",
+                "title": "Yoshi's Island N64 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "H_7zhkH9FIo",
-                "title": "Dream Land [Kirby] [64] - Super Smash Bros. Melee"
+                "video_id": "6WJy6xdAlgw",
+                "title": "Dream Land N64 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "xxzOKJl2OdQ",
+                "video_id": "bPrg92jL0eQ",
                 "title": "Super Mario Bros. 3 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "-udBMfj9kL4",
-                "title": "Saria's Song [The Legend of Zelda: Ocarina of Time] - Super Smash Bros. Melee"
+                "video_id": "gmu3i2ZkukI",
+                "title": "Saria's Song - Super Smash Bros. Melee"
             },
             {
-                "video_id": "vKGx4GWITYg",
-                "title": "Pok\u00e9mon Battle! [Gold/Silver] - Super Smash Bros. Melee"
+                "video_id": "I22TJCz1sTo",
+                "title": "Pok\u00e9mon Battle! (Gold Silver) - Super Smash Bros. Melee"
             },
             {
-                "video_id": "IRF8lBlHYOc",
+                "video_id": "WQmkf-m71MU",
                 "title": "Fire Emblem - Super Smash Bros. Melee"
             },
             {
-                "video_id": "mqlDc-U8zpM",
+                "video_id": "JFcZRF-v7jY",
                 "title": "Mach Rider - Super Smash Bros. Melee"
             },
             {
-                "video_id": "GgbeFTvpFDU",
-                "title": "Mother 2 [Earthbound] - Super Smash Bros. Melee"
+                "video_id": "0Op0ZSlDa-g",
+                "title": "Mother 2 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "Urban_J-tYE",
-                "title": "Dr. Mario [Fever] - Super Smash Bros. Melee"
+                "video_id": "MFA4-D0Gnd4",
+                "title": "Dr. Mario - Super Smash Bros. Melee"
             },
             {
-                "video_id": "YmZeKJ920Ig",
+                "video_id": "4EsUsIEhJy8",
                 "title": "Balloon Fight - Super Smash Bros. Melee"
             },
             {
-                "video_id": "TgZypXIQGLs",
+                "video_id": "NTADE69AJpA",
                 "title": "Metal Battle - Super Smash Bros. Melee"
             },
             {
-                "video_id": "IChU9xslkl0",
+                "video_id": "JKGXwsHRFvE",
                 "title": "Battlefield - Super Smash Bros. Melee"
             },
             {
-                "video_id": "3EqHbN6jaz4",
+                "video_id": "HJi72XLA6qE",
                 "title": "Final Destination - Super Smash Bros. Melee"
             },
             {
-                "video_id": "6-jMpHPiUxA",
+                "video_id": "GQiBKZo1fYU",
                 "title": "Menu 2 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "66fXYEqhMt8",
+                "video_id": "IYuWT0I2sdg",
                 "title": "How to Play - Super Smash Bros. Melee"
             },
             {
-                "video_id": "4rK0t4tScxc",
+                "video_id": "0bA1l0AXaUI",
                 "title": "Break the Targets - Super Smash Bros. Melee"
             },
             {
-                "video_id": "tX2de4rFxRI",
-                "title": "Multi-Man Melee 1 - Super Smash Bros. Melee"
+                "video_id": "o5voxLAR9xw",
+                "title": "Multi Man Melee 1 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "6NK6PZPnVQs",
-                "title": "Multi-Man Melee 2 - Super Smash Bros. Melee"
+                "video_id": "9mnpYvqx2lc",
+                "title": "Multi Man Melee 2 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "9o4VyUW1Byo",
-                "title": "All-Star Rest Area - Super Smash Bros. Melee"
+                "video_id": "jyyJwI1nstY",
+                "title": "All Star Rest Area - Super Smash Bros. Melee"
             },
             {
-                "video_id": "o1EL7cmlBmM",
+                "video_id": "sar_bJ8TFAA",
                 "title": "Tournament 1 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "cnWe_15tBG0",
+                "video_id": "h70BVVRKxP0",
                 "title": "Tournament 2 - Super Smash Bros. Melee"
             },
             {
-                "video_id": "z56pDEpxDis",
+                "video_id": "HULTfqD06LU",
                 "title": "Trophy - Super Smash Bros. Melee"
             },
             {
-                "video_id": "sM0aAre16nU",
+                "video_id": "05wywrBcCFA",
                 "title": "Giga Bowser - Super Smash Bros. Melee"
             }
         ]
     },
     "Brawl": {
         "id": [
-            "PLAs1Kha_R9dLgsQqWKG-8UYD6HGOg6UO0"
+            "PLNvQcJ1tQe2Q6ajHXcrabmTnp4KEtm2B0",
+            "PLNvQcJ1tQe2S72Nnu_PYh_UmBGNWXv4GP"
         ],
         "name": "Super Smash Bros. Brawl",
         "songs": [
             {
-                "video_id": "sTr5UnHKpB4",
+                "video_id": "7PGtO4h2pkY",
                 "title": "Main Theme - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "BfhrPf0vBHA",
+                "video_id": "s1R-BVB0Il8",
                 "title": "Menu 1 - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "6ayz7qH5IiM",
+                "video_id": "tyIexR62mn0",
                 "title": "Menu 2 - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "ODmlmssYLlQ",
-                "title": "Menu [Melee] - Super Smash Bros. Brawl"
+                "video_id": "zwObcHTN2f4",
+                "title": "Menu (Melee) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "4DtUBkAf6Jw",
-                "title": "Menu [Super Smash Bros. Melee] - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "LJw8xuEMw7Y",
+                "video_id": "v1o7CyKHkwo",
                 "title": "Battlefield - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "fqgPDN2on70",
-                "title": "Battlefield Ver. 2 - Super Smash Bros. Brawl"
+                "video_id": "c2dU4zJrbJQ",
+                "title": "Menu (Super Smash Bros  Melee) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "wIcc-Nivk5Q",
-                "title": "Battlefield [Melee] - Super Smash Bros. Brawl"
+                "video_id": "1-6UrJrM4Ag",
+                "title": "Battlefield Ver.  2 - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "x3YESAqkvqU",
-                "title": "Multi-Man Melee 1 [Melee] - Super Smash Bros. Brawl"
+                "video_id": "BCFZF1JlTEQ",
+                "title": "Battlefield (Melee) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "P33MkgarK0g",
+                "video_id": "Wbal_LKZA2Y",
+                "title": "Multi Man Melee 1 (Melee) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "sqYpWVH0wOQ",
                 "title": "Final Destination - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "3Nm8npxHky8",
-                "title": "Credits [Super Smash Bros. 64] - Super Smash Bros. Brawl"
+                "video_id": "Ut0igS7SKag",
+                "title": "Credits (Super Smash Bros. 64) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "Ysc_2oWbaxs",
-                "title": "Opening [Super Smash Bros. Melee] - Super Smash Bros. Brawl"
+                "video_id": "wHm60239WYU",
+                "title": "Opening (Super Smash Bros. Melee) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "wAN91eIcD_4",
-                "title": "Final Destination [Melee] - Super Smash Bros. Brawl"
+                "video_id": "PHVUfjmovjU",
+                "title": "Final Destination (Melee) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "kEwu0pgYmFE",
-                "title": "Giga Bowser [Melee] - Super Smash Bros. Brawl"
+                "video_id": "uNjrG__D1nE",
+                "title": "Giga Bowser (Melee) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "oz3YN5Vy1ik",
-                "title": "Online Practice Stage - Super Smash Bros. Brawl"
+                "video_id": "mM9nx_utKp8",
+                "title": "Ground Theme (Super Mario Bros.) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "6rDtmmCTwoQ",
-                "title": "Results Display Screen - Super Smash Bros. Brawl"
+                "video_id": "HFzcFMhWdSw",
+                "title": "Ground Theme 2 (Super Mario Bros.) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "Lk3ZvTDzO2Y",
-                "title": "Tournament Registration - Super Smash Bros. Brawl"
+                "video_id": "eKjI6YGDVT4",
+                "title": "Underground Theme (Super Mario Bros.) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "v-qbT_REgfI",
-                "title": "Tournament Grid - Super Smash Bros. Brawl"
+                "video_id": "NXnXcTA_utY",
+                "title": "Underwater Theme (Super Mario Bros.) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "4s0A4_p6eIs",
-                "title": "Tournament Match End - Super Smash Bros. Brawl"
+                "video_id": "jdhPle6fVR8",
+                "title": "Underground Theme (Super Mario Land.) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "O5BVPYsAG4s",
-                "title": "Classic: Results Screen - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "MsehhNJRvNM",
-                "title": "All-Star Rest Area - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "vp2Cxc6CMhA",
-                "title": "Boss Battle - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "VhsrttPbASw",
-                "title": "Trophy Gallery - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "Yn_MtNFA63Y",
-                "title": "Sticker Album/Album/Chronicle - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "ptpcqBME5ug",
-                "title": "Coin Launcher - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "4c_KVKJg0zY",
-                "title": "Stage Builder - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "lIMaUCIGJns",
-                "title": "Target Smash!! - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "QxSOjlNLiWw",
-                "title": "Adventure Map - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "-E1fbgtsuoM",
-                "title": "Step: The Plain - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "VDNwK3p3V1U",
-                "title": "Step: The Cave - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "3-9jmlTLx30",
-                "title": "Step: Subspace - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "b8dukFmUGPk",
-                "title": "Step: Subspace Ver.2 - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "L1CcW_W5nnI",
-                "title": "Step: Subspace Ver.3 - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "09oLJ-qAdPg",
-                "title": "Boss Battle Song 1 - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "SIjAqgJFfMM",
-                "title": "Tabuu - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "Kn1RUHFYUzQ",
-                "title": "Save Point - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "bh3Lpfq1COg",
-                "title": "Credits - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "7khx1yn0C_g",
-                "title": "Ground Theme - Super Mario Bros. - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "NTDs3dOCk0w",
-                "title": "Ground Theme 2 - Super Mario Bros. -Super Smash Bros. Brawl - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "Cgs8mpHfqxU",
-                "title": "Underground Theme - Super Mario Bros. - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "7xIpFYAUezU",
-                "title": "Underwater Theme - Super Mario Bros. - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "7Efg_CZaMww",
-                "title": "Underground Theme - Super Mario Land - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "HO9F41B1pgg",
+                "video_id": "goJJVSWL2eI",
                 "title": "Delfino Plaza - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "97a8Qys5Ggs",
-                "title": "Title/Ending - Super Mario World - Super Smash Bros. Brawl"
+                "video_id": "ccEccdPSXGk",
+                "title": "Title / Ending (Super Mario World) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "weg32F6Szkw",
-                "title": "Main Theme - New Super Mario Bros. - Super Smash Bros. Brawl"
+                "video_id": "7tXoZtOAIN0",
+                "title": "Main Theme (New Super Mario Bros.) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "beYVQri1je0",
+                "video_id": "PMmP6PNIMMA",
                 "title": "Ricco Harbor - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "HtP495fccgw",
-                "title": "Main Theme - Super Mario 64 - Super Smash Bros. Brawl"
+                "video_id": "o60BgK80Xtc",
+                "title": "Main Theme (Super Mario 64) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "_AQw-PdHpQA",
+                "video_id": "hK4HcONuM1c",
                 "title": "Luigi's Mansion Theme - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "aApYNCo4W6g",
-                "title": "Castle/Boss Fortress [SMW/SMB. 3] - Super Smash Bros. Brawl"
+                "video_id": "B8NLkKymgN8",
+                "title": "Castle / Boss Fortress (Super Mario World / SMB 3) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "efJAziAdihI",
-                "title": "Airship Theme [Super Mario Bros. 3] - Super Smash Bros. Brawl"
+                "video_id": "zy8-OFPk2F4",
+                "title": "Airship Theme (Super Mario Bros. 3) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "NorHWmvUmvA",
+                "video_id": "_XN7aktQ8Hk",
                 "title": "Gritzy Desert - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "3hvGgnvJD5o",
+                "video_id": "gz6QQRkKA-g",
                 "title": "Mario Bros. - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "h9gvuWPPZPM",
+                "video_id": "7bCp0nbaABE",
                 "title": "Mario Circuit - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "fAyzgSFQXfw",
-                "title": "Rainbow Road - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "ajD_x4WTtpE",
-                "title": "Waluigi Pinball - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "EncChhtdgUY",
+                "video_id": "lUphRZed5qk",
                 "title": "Luigi Circuit - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "T2nQPajT_P4",
-                "title": "Mario Tennis/Mario Golf - Super Smash Bros. Brawl"
+                "video_id": "2ngco5VH2V0",
+                "title": "Waluigi Pinball - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "J_QB3q5G7xg",
-                "title": "Title [3D Hot Rally] - Super Smash Bros. Brawl"
+                "video_id": "J_HVGwMcffo",
+                "title": "Rainbow Road - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "r5wG0OAP_SQ",
-                "title": "Main Theme [The Legend of Zelda] - Super Smash Bros. Brawl"
+                "video_id": "p-nZS7sPC40",
+                "title": "Mario Tennis / Mario Golf - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "AMRIgfXUcxg",
-                "title": "Ocarina of Time Medley - Super Smash Bros. Brawl"
+                "video_id": "k1kU7rbr6Tc",
+                "title": "Title (3D Hot Rally) - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "sawX5BEKP5I",
-                "title": "Title [The Legend of Zelda] - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "ebeTT4qGIJY",
-                "title": "The Dark World - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "qaPoSKDk64U",
-                "title": "Hidden Mountain & Forest - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "L2hBrrOhSaM",
-                "title": "Hyrule Field Theme - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "HEgRWDbyu5Q",
-                "title": "Hyrule Field [Twilight Princess] - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "ERNK1zy2FDA",
-                "title": "The Hidden Village - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "YeF3-qQCPjA",
-                "title": "Midna's Lament - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "GnuuOx4Bb0s",
-                "title": "Dragon Roost Island - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "4lRSqCX3zAI",
-                "title": "The Great Sea - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "2uk8utPcjeg",
-                "title": "Tal Tal Heights - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "Geh6JVwJXRg",
-                "title": "Song of Storms - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "XEAiCzmXiTY",
-                "title": "Gerudo Valley - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "q2rG-h8J6Xw",
-                "title": "Molgera Battle - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "o5TpOnFknv0",
-                "title": "Village of the Blue Maiden - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "1eWOz_FtNNA",
-                "title": "Termina Field - Super Smash Bros. Brawl"
-            },
-            {
-                "video_id": "k42Zv-AUMUc",
+                "video_id": "2yi-F-ZEspI",
                 "title": "Jungle Level - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "9uznp_6RtH8",
+                "video_id": "5shNNLllOYQ",
                 "title": "Jungle Level Ver.2 - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "BOq29jEiVPk",
-                "title": "King K.Rool/Ship Deck 2 - Super Smash Bros. Brawl"
+                "video_id": "OTxRg1XyWnw",
+                "title": "King K.Rool / Ship Deck 2 - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "DICydeze3sY",
+                "video_id": "oir8-1FoS-I",
                 "title": "Bramble Blast - Super Smash Bros. Brawl"
             },
             {
-                "video_id": "q-_DWtqzIjM",
+                "video_id": "dEKSXv4MNdc",
                 "title": "Battle for Storm Hill - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "wBqdjtwc5TU",
+                "title": "DK Jungle 1 Theme (Barrel Blast) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Gykruu49_OI",
+                "title": "The Map Page / Bonus Level - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "_sPpf59bjpA",
+                "title": "Donkey Kong - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "_AB-PHsE8Fk",
+                "title": "Opening (Donkey Kong) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "djvjxv6TgD4",
+                "title": "25m BGM - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "8w9ukXIU8ww",
+                "title": "Main Theme (The Legend of Zelda) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "O6Ns7qIsmvg",
+                "title": "Ocarina of Time Medley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "jFXydV9RBgs",
+                "title": "Title (The Legend of Zelda) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "r7Pytto0JsI",
+                "title": "The Dark World - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Vekkb31xiLE",
+                "title": "Hidden Mountain & Forest - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "gV4Ukr5mX2Q",
+                "title": "Hyrule Field Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "p8S95PUNLDw",
+                "title": "Main Theme (Twilight Princess) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "nMcnOsK01KA",
+                "title": "The Hidden Village - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "iw6iLGBgY_Y",
+                "title": "Midna's Lament - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "K1isKou46ow",
+                "title": "Dragon Roost Island - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "jSOJer2T7u0",
+                "title": "The Great Sea - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "RdTt6bSKSqQ",
+                "title": "Tal Tal Heights - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "7mKMrmtzOQ4",
+                "title": "Song of Storms - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "EAf_PRr-enU",
+                "title": "Gerudo Valley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "wyr8bqLeU_8",
+                "title": "Molgera Battle - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "BRdg7qFXIFE",
+                "title": "Village of the Blue Maiden - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "RjMdgLcU1g0",
+                "title": "Termina Field - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "KdrgbInzb0U",
+                "title": "Main Theme (Metroid) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "m1Lr4YvxLnA",
+                "title": "Norfair - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Rfb7hRoTqMI",
+                "title": "Ending (Metroid) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "-8S3XqrCpiA",
+                "title": "Vs. Ridley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "CVGUUsXsozY",
+                "title": "Theme of Samus Aran, Space Warrior - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "fwoj5VBJFPQ",
+                "title": "Sector 1 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "nAqvyk2tT3k",
+                "title": "Opening / Menu (Metroid Prime) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "dZKXKxaQtKI",
+                "title": "Vs. Parasite Queen - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "OwHddAeJ6Is",
+                "title": "Vs. Meta Ridley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "-M2sKH0Fhu4",
+                "title": "Multiplayer (Metroid Prime 2) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "6nnfdeRUVQ0",
+                "title": "Battle Scene / Final Boss (Golden Sun) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "YrcTFD0NE9I",
+                "title": "Ending (Yoshi's Story) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "dGUrigsNXeA",
+                "title": "Obstacle Course - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "XIuV0mLFBwc",
+                "title": "Yoshi's Island - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ZsGQ8_a1kWA",
+                "title": "Flower Field - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Vj6Da3Z3nQ8",
+                "title": "Wildlands - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ZKmP8tZJGgU",
+                "title": "The Legendary Air Ride Machine - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "83nrLhT8FQc",
+                "title": "King Dedede's Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "mKe7-mRqCMg",
+                "title": "Boss Theme Medley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "h_5SQFDcTw0",
+                "title": "Butter Building - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "xRLTOvKTMeU",
+                "title": "Gourmet Race - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "g7veWDrAEjc",
+                "title": "Meta Knight's Revenge - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "DSWsbKUiSDw",
+                "title": "Vs. Marx - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "KUU4OQORP_4",
+                "title": "0\u00b2 Battle - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "hh4tgll68uQ",
+                "title": "Forest / Nature Area - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "9_DfKgOIo7Q",
+                "title": "Checker Knights - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Pxl4m0LcDGk",
+                "title": "Frozen Hillside - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Z89RyCkXPDo",
+                "title": "Squeak Squad Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "tWcbJiVPwHA",
+                "title": "Main Theme (Star Fox) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "HAg_LqkcSQ4",
+                "title": "Corneria - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "S80Oa8MSNaQ",
+                "title": "Main Theme (Star Fox 64) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "VuLOc2JXQM0",
+                "title": "Area 6 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Brz0z33YlrE",
+                "title": "Star Wolf - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "zl3XyYF_6Uo",
+                "title": "Space Battleground - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "EFwm41RATiQ",
+                "title": "Break Through the Ice - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Yctvb7nrDqU",
+                "title": "Star Wolf (Star Fox: Assault) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "nHw1ZUyBLSM",
+                "title": "Space Armada - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "fEVGumCNr88",
+                "title": "Area 6 Ver. 2 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ZBW5KUUYJ7Y",
+                "title": "Pok\u00e9mon Main Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "arbSWF87bIk",
+                "title": "Pok\u00e9mon Center - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "xbpHXi0d8a8",
+                "title": "Road to Viridian City (From Pallet Town / Pewter City) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "QkIfGmJ1jQU",
+                "title": "Pok\u00e9mon Gym / Evolution - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "NuK0CjbttX4",
+                "title": "Wild Pok\u00e9mon Battle! (Ruby / Sapphire) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ZopqxcmfBBM",
+                "title": "Victory Road - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "JxcYzimvF5w",
+                "title": "Wild Pok\u00e9mon Battle! (Diamond / Pearl) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "zQvMStusjS4",
+                "title": "Dialga / Palkia Battle at Spear Pillar! - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "DRM3OtdWnfM",
+                "title": "Team Galactic Battle! - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "CjXovHTA7y0",
+                "title": "Route 209 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "LTL6CVCywKs",
+                "title": "Mute City - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "MjTmMUR5AWI",
+                "title": "White Land - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "q_2JAJUSMXY",
+                "title": "Fire Field - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "xdLwng7VDXw",
+                "title": "Car Select - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "U5PDMabK8po",
+                "title": "Dream Chaser - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "mtL0eLrquSU",
+                "title": "Devil's Call in Your Heart - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "hcNzZGmnz48",
+                "title": "Climb Up! And Get The Last Chance! - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "JJfcbtwFgYA",
+                "title": "Brain Cleaner - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "m5XrIJUxLa0",
+                "title": "Shotgun Kiss - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "YycgGG3lgWY",
+                "title": "Planet Colors - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "JtlP51G2X8U",
+                "title": "Ice Climber - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "DnPBLycRWfY",
+                "title": "Flat Zone 2 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "rXweiFtrulU",
+                "title": "Fire Emblem Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ULFvKxKaOWU",
+                "title": "Shadow Dragon Medley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ETCLx5APhx8",
+                "title": "With Mila's Divine Protection (Celica Map 1) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "HckNM4j8GP4",
+                "title": "Preparing to Advance - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "OTproasODgU",
+                "title": "Winning Road (Roy's Hope) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ABmfoOQiC8o",
+                "title": "Attack - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "DqRELNO4UOI",
+                "title": "Against the Black Knight - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "frr5dXRd6Xs",
+                "title": "Crimean Army Sortie - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "zcTq6x0xAKA",
+                "title": "Power-Hungry Fool - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "U9J1o8XdGAw",
+                "title": "Victory is Near - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "J0Th5YJLXX8",
+                "title": "Ike's Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "FjW6AUpl8PI",
+                "title": "WarioWare, Inc. Medley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "n-9WOZu57cI",
+                "title": "WarioWare, Inc. - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "OdRqJXuHt6I",
+                "title": "Mona Pizza's Song - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "qovDaA0Jn-8",
+                "title": "\u3053\u3061\u3089\u2606\u30e2\u30ca\u30d4\u30b6 - \u5927\u4e71\u95d8\u30b9\u30de\u30c3\u30b7\u30e5\u30d6\u30e9\u30b6\u30fc\u30baX - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "e6LIeil4zwY",
+                "title": "Mike's Song - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "f_d2XOHGPP8",
+                "title": "\u30de\u30a4\u30af\u304c\u30b9\u30ad\u2606\u30b9\u30ad - \u5927\u4e71\u95d8\u30b9\u30de\u30c3\u30b7\u30e5\u30d6\u30e9\u30b6\u30fc\u30baX - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "AILuztTRUdc",
+                "title": "Ashley's Song - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ggGtnmlIXV0",
+                "title": "\u30a2\u30b7\u30e5\u30ea\u30fc\u306e\u30c6\u30fc\u30de - \u5927\u4e71\u95d8\u30b9\u30de\u30c3\u30b7\u30e5\u30d6\u30e9\u30b6\u30fc\u30baX - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ev4yEWXak50",
+                "title": "World Map (Pikmin 2) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "QU4Be7Q32O0",
+                "title": "Forest of Hope - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "nJv1LwZzm6w",
+                "title": "Ai no Uta - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "GZ6L3FQKS_Q",
+                "title": "Tane no Uta - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "8bPcfHdDNRk",
+                "title": "Main Theme (Pikmin) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "rPwVoQzU1CU",
+                "title": "Stage Clear / Title (Pikmin) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "BTKPes2SaVI",
+                "title": "Ai no Uta (French Version) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "M1tVJsslKQY",
+                "title": "Underworld - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "4ohZ9LfxFb8",
+                "title": "Title (Kid Icarus) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "l9XMM0JmEmw",
+                "title": "Skyworld - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "yA93VKSywOs",
+                "title": "Kid Icarus Original Medley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "tJQGQdNXipQ",
+                "title": "Snowman - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "09viE0DVOHo",
+                "title": "Humoresque of a Little Dog - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "e3X1fPm3UEw",
+                "title": "Porky's Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "0Rr__bI3H8Y",
+                "title": "Mother 3 Love Theme - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "hCxjZWLGNQw",
+                "title": "Unfounded Revenge / Smashing Song of Praise - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "QiC6v4dCcxA",
+                "title": "You Call This a Utopia?! - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "eHYWrc84m1U",
+                "title": "Title (Animal Crossing) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "gFZxwh1LyMo",
+                "title": "Go K.K. Rider! - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "fGMQ-ZxVbUM",
+                "title": "2:00 a.m. - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "rrACyVnri3Y",
+                "title": "The Roost - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "wudUjpcJKCE",
+                "title": "Town Hall and Tom Nook's Store - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "sCxPEFCZtAA",
+                "title": "K.K. Cruisin' - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "xxCw9tyxxXQ",
+                "title": "K.K. Western - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Ashffa4dScI",
+                "title": "K.K. Gumbo - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "F9CLiLMkAzw",
+                "title": "Rockin' K.K. - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "6czsvHUMcuM",
+                "title": "DJ K.K. - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "lFb07Ml2uNU",
+                "title": "K.K. Condor - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "x_ZDsSteH20",
+                "title": "Encounter - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Xh20sRVCyOk",
+                "title": "Theme of Tara - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "f62SYV3jqwM",
+                "title": "Yell \"Dead Cell\" - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Fasx-ZKPdO4",
+                "title": "Snake Eater (Instrumental) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "WsHHK2qWlgc",
+                "title": "MGS4 ~Theme of Love~ (Brawl Version) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "wlzNh7pPmQs",
+                "title": "Cavern - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "S5x0pL4vgIg",
+                "title": "Battle in the Base - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "WYu3fWe8iWY",
+                "title": "Theme of Solid Snake - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "x5R3YisJFKM",
+                "title": "Calling to the Night - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "sCfSzFxQsDc",
+                "title": "Green Hill Zone - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "y-pbUyk-FW0",
+                "title": "Scrap Brain Zone - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "vht0NFkoN34",
+                "title": "Emerald Hill Zone - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "EbXVk9Ko6uk",
+                "title": "Angel Island Zone - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "1YeUXCKlIBo",
+                "title": "Sonic Boom - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "EUQSU75UGGQ",
+                "title": "Super Sonic Racing - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "-64eUZ_8C1M",
+                "title": "Open Your Heart - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "HlvoBEh9ASM",
+                "title": "Live & Learn - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "vkat-4JvJYY",
+                "title": "Sonic Heroes - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "yHf2dOp-rQ0",
+                "title": "Right There, Ride On - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Z-XeX-IfgmI",
+                "title": "HIS WORLD (Instrumental) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "pUbYn5vUvsQ",
+                "title": "Seven Rings In Hand - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "mEgCOSg4U8Y",
+                "title": "Golden Forest (1080\u00b0 Snowboarding) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "6wrhKVO64Us",
+                "title": "Marionation Gear - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "9EXMI_dYKGI",
+                "title": "Excite Truck - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "oO0_X9oRiwM",
+                "title": "Title (Big Brain Academy) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Whry7aooiIo",
+                "title": "Clu Clu Land - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "fmfsjrI64ys",
+                "title": "Balloon Trip - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "IJ1Luoidc_s",
+                "title": "Shin Onigashima - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "MEOcvZQUUzk",
+                "title": "Tetris: Type A - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "PtbcHzPWbNk",
+                "title": "Tetris: Type B - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "pP25CADjnsE",
+                "title": "Tunnel Scene (X) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Vog-P-WzAJI",
+                "title": "Chill (Dr. Mario) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "PRsoDaFg_0E",
+                "title": "Gyromite - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "euM5CiLIBYI",
+                "title": "Famicom Medley - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "kXYE_oF4jas",
+                "title": "Power-Up Music - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "6oNdKS-AHHc",
+                "title": "Douchuumen (Nazo no Murasamejo) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "VOGy4qQzE5w",
+                "title": "PictoChat - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "JOgJ-w7PNsA",
+                "title": "Mii Channel - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "mdFAi_V_pCI",
+                "title": "Wii Shop Channel - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "E9OlnFR7VVA",
+                "title": "Brain Age: Train Your Brain in Minutes a Day - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "xJ5-rwIxnIU",
+                "title": "Opening Theme (Wii Sports) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "sXlFzBIK2Zw",
+                "title": "Charge! (Wii Play) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "BpH_m20Voz4",
+                "title": "Shaberu! DS Cooking Navi - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "WkT0E6qTPxg",
+                "title": "Lip's Theme (Panel de Pon) - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "1Zv_57d7HEI",
+                "title": "Online Practice Stage - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "q8axVD1hp9Q",
+                "title": "Results Display Screen - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "V1eqI5ORkyI",
+                "title": "Tournament Registration - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "ZxnMdkQ-OXE",
+                "title": "Tournament Grid - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "8EzRTtUwlvQ",
+                "title": "Tournament Match End - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "LDTQqNo4cnc",
+                "title": "Classic: Results Screen - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "0tlHDVBOYns",
+                "title": "All-Star Rest Area - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "rr-gLBXEHBU",
+                "title": "Boss Battle - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "DgbPS8cpuxk",
+                "title": "Trophy Gallery - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "C9Ts9-GEXI0",
+                "title": "Sticker Album / Album / Chronicle - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "yBpot4KIyj4",
+                "title": "Coin Launcher - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "LZwdfPeIRjo",
+                "title": "Stage Builder - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "qUlBtOJPawg",
+                "title": "Target Smash!! - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "meDiL68WRq0",
+                "title": "Adventure Map - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "vMsnb8z0k8w",
+                "title": "Step: The Plain - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "J8r_kzVImeo",
+                "title": "Step: The Cave - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "5h1ZOmhA1HY",
+                "title": "Step: Subspace - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "RcnL97C-Mkk",
+                "title": "Step: Subspace Ver.2 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "Mn1td8YDZIw",
+                "title": "Step: Subspace Ver.3 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "HScgrQi5Yyw",
+                "title": "Boss Battle Song 1 - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "dMt3xF8IqlA",
+                "title": "Tabuu - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "zZDcE5QLRdY",
+                "title": "Save Point - Super Smash Bros. Brawl"
+            },
+            {
+                "video_id": "5HbaIJXEjUs",
+                "title": "Credits - Super Smash Bros. Brawl"
             }
         ]
     },
     "3DS": {
         "id": [
-            "PLbjp_k_WffD02-qAMNP66eYpLRS9jL63y"
+            "PLNvQcJ1tQe2QBcDcU8FQysjg800ga8U82"
         ],
         "name": "Super Smash Bros. for 3DS",
         "songs": [
             {
-                "video_id": "i9CxNTlLKNM",
+                "video_id": "wZl2N38Kuc4",
                 "title": "Menu - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "Jjz40q-ADNs",
+                "video_id": "d9eq4e3g4Oc",
                 "title": "Menu 2 (Melee) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "AzsfDu0A2_I",
-                "title": "Menu (Melee) - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "_IcAMjgQrQM",
-                "title": "Menu (Melee) Ver. 2 - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "r4qx9W6UIqo",
+                "video_id": "0pDXnyWmVHM",
                 "title": "Battlefield - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "Ym-x22FqWsI",
+                "video_id": "ngHqOVO0ThE",
+                "title": "Menu (Melee) - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "C9u_PVMNyLs",
                 "title": "Final Destination - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "kSuAUqWknbU",
+                "video_id": "Fij_PEiJVRw",
+                "title": "Menu (Melee) Ver. 2 - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "7xGnBl5YF0g",
                 "title": "Super Mario 3D Land Theme / Beach Theme - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "A-wOUTciqoo",
+                "video_id": "83ByUUK-3PI",
                 "title": "Super Mario Bros. 3 Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "FBBDtKghCXA",
+                "video_id": "y-L7yZoi0MQ",
                 "title": "Athletic Theme / Ground Theme (New Super Mario Bros. 2) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "eKb_Tj5OjsY",
+                "video_id": "awXBY3fTsFM",
                 "title": "Ground Theme / Underground Theme (Super Mario Bros.) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "hITt3qq21sg",
+                "video_id": "uR9j-m13wg8",
                 "title": "Rainbow Road Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "aBOgiXDIxto",
-                "title": "Paper Mario Medley - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "Wh2GMJOp_aY",
+                "video_id": "3Hz2gFJtgU0",
                 "title": "Rainbow Road (Mario Kart 7) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "gUxULpj-Y0Q",
-                "title": "Try, Try Again - Super Smash Bros. for 3DS"
+                "video_id": "lWdrUX0vHSs",
+                "title": "Paper Mario Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "EkkzKp75KEU",
-                "title": "Ground Theme (Super Mario Bros.) - Super Smash Bros. for 3DS"
+                "video_id": "gIUqdwGorBs",
+                "title": "Try, Try Again - Super Smash Bros  3DS - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "Vs6uW0aETf4",
+                "video_id": "MvxiwyRkSr4",
+                "title": "Ground Theme (Super Mario Bros.) - Super Smash Bros  3DS - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "HnW5lz_vanM",
                 "title": "Underground Theme (Super Mario Bros.) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "EQOdACPuPP0",
-                "title": "Rainbow Cruise (Melee) - Super Smash Bros. for 3DS"
+                "video_id": "26AMtRk7vJs",
+                "title": "Rainbow Cruise - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "i61F8QxuV_A",
-                "title": "Dr. Mario (Melee) - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "YWXTwOmNOgU",
-                "title": "Gear Getaway - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "fnsYPbPMJbU",
+                "video_id": "UpZtkjlbkdw",
                 "title": "Kongo Jungle - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "AeX9AA6sum4",
-                "title": "Stickerbush Symphony - Super Smash Bros. for 3DS"
+                "video_id": "QpX8N8GKP1c",
+                "title": "Gear Getaway - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "BghBl8gjWIU",
-                "title": "Main Theme / Underworld Theme (The Legend of Zelda) - Super Smash Bros. for 3DS"
+                "video_id": "rk9idClc6SU",
+                "title": "Bramble Blast - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "7m4jKfOHMMc",
-                "title": "Ocarina of Time Medley - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "9mItI2iN52g",
-                "title": "Dark World / Dark World Dungeon - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "vJmZJUxJxhE",
-                "title": "Ballad of the Goddess / Ghirahim's Theme - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "RCn1GZGaaIQ",
-                "title": "Full Steam Ahead (Spirit Tracks) - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "S7DsE0CcjuM",
+                "video_id": "HXXQssECVjQ",
                 "title": "Gerudo Valley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "4_34oRHrgnc",
+                "video_id": "MRJ_JXNyisk",
+                "title": "Full Steam Ahead Spirit Tracks - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "gZIqtku3Ys4",
+                "title": "Ocarina of Time Medley - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "AZZDRRVojOY",
+                "title": "Main Theme / Underworld Theme - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "NAaM2vbght8",
+                "title": "Dark World / Dark World Dungeon - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "B683h_5av8Q",
+                "title": "Ballad of the Goddess / Ghirahim's Theme - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "tWslZ_toAck",
                 "title": "Temple Theme - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "WhHNaMr6QT8",
+                "video_id": "c8Rzu8egtmo",
                 "title": "Brinstar - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "dF6o2KOg0jo",
+                "video_id": "z3TfErzTabs",
                 "title": "Brinstar Depths - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "c_Glux1JpTk",
-                "title": "Obstacle Course (Spring / Summer) - Super Smash Bros. for 3DS"
+                "video_id": "rg0sVNxish8",
+                "title": "Obstacle Course (Spring Summer) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "zZUyBgFmm2g",
-                "title": "Obstacle Course (Fall / Winter) - Super Smash Bros. for 3DS"
+                "video_id": "Q0RiqL192xM",
+                "title": "Obstacle Course (Autumn Winter) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "xHYNFSlFVwQ",
-                "title": "Ending (Yoshi's Story) - Super Smash Bros. for 3DS"
+                "video_id": "V6vc4E2Up78",
+                "title": "Ending Theme (Yoshi's Story) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "fk6JNbFhC2Q",
+                "video_id": "9PqezTr3RyA",
                 "title": "Green Greens - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "LK1qvfTpjpw",
+                "video_id": "nPiDXNpY7rk",
                 "title": "Castle Lololo - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "n9_dDIMUv1A",
+                "video_id": "goqZiZZzJI4",
                 "title": "Float Islands - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "DCkMuXbKWfE",
+                "video_id": "SpVR_ejXSoY",
                 "title": "Bubbly Clouds - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "3ATeB1FUhh8",
+                "video_id": "ZKSVcdSEJVA",
                 "title": "Mt. Dedede - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "yBrWr9iw-S4",
+                "video_id": "X6hvC-V3XSU",
                 "title": "Green Greens Ver. 2 - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "8M_HIKvQNFU",
-                "title": "The Legendary Air Ride Machine - Super Smash Bros. for 3DS"
+                "video_id": "dnPF2G9GUQ0",
+                "title": "Legendary Air Ride Machine - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "x1JZJoh6BDE",
+                "video_id": "z82GPV9d3R4",
                 "title": "Corneria - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "9F-tDpIHqmQ",
-                "title": "Star Wolf's Theme / Sector Z - Super Smash Bros. for 3DS"
+                "video_id": "UpdzTMP52kk",
+                "title": "Star Wolf / Sector Z - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "xyFePwk40sU",
+                "video_id": "emsu8z0RZeU",
                 "title": "Area 6 / Missile Slipstream - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "rBmh-BojmMI",
+                "video_id": "fek3xy_j4bc",
                 "title": "N's Castle Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "VTgUsE0bzdY",
-                "title": "Battle! (Reshiram / Zekrom) - Super Smash Bros. for 3DS"
+                "video_id": "0SiD8znokNM",
+                "title": "Battle! Reshiram / Zekrom - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "x3RfW2toeyA",
-                "title": "Battle! (Trainer Battle) - Super Smash Bros. for 3DS"
+                "video_id": "Tm-XGCEA67U",
+                "title": "Battle! Trainer (Pok\u00e9mon X & Y) - Super Smash Bros  3DS - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "QZYZhKPddnE",
+                "video_id": "SeBjFij2odY",
                 "title": "Lumiose City - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "fVX4nVMJ35Y",
+                "video_id": "NKiNaGRjiKo",
                 "title": "Mute City - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "stMQ0Ft-LWI",
-                "title": "Mute City (SNES) - Super Smash Bros. for 3DS"
+                "video_id": "nWkQi9HuQM0",
+                "title": "Mute City (Original) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "HtwR4C5JEGw",
+                "video_id": "V_Bzs2MIgcg",
                 "title": "Magicant / Eight Melodies (Mother) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "EDLIv8S4xOQ",
-                "title": "Smile and Tears - Super Smash Bros. for 3DS"
+                "video_id": "wV8LNS0-eSc",
+                "title": "Smiles and Tears - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "uO4Z1SxUhFI",
-                "title": "The Devoted - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "3x4L8zgmEOs",
+                "video_id": "rDc73ih3g1Y",
                 "title": "Id (Purpose) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "7ELHAcbg-Jo",
+                "video_id": "rVgQQ8EqxuI",
                 "title": "Fire Emblem - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "ovub1sTfm1k",
-                "title": "With Mila's Divine Protection (Celica Map 1) - Super Smash Bros. for 3DS"
+                "video_id": "9nZuhFb8IjM",
+                "title": "With Mila's Divine Protection (Celica Map 1) - Super Smash Bros  3DS - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "E3rRjNLl9zQ",
-                "title": "Flat Zone - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "x1Ofdg9KX3Q",
+                "video_id": "LsssY8IQmTI",
                 "title": "Flat Zone 2 - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "_KLCH1XZruY",
-                "title": "Wrath of the Reset Bomb (Remix) - Super Smash Bros. for 3DS"
+                "video_id": "8ZR-HMYowOI",
+                "title": "Flat Zone - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "CBvQ8wBiAw4",
-                "title": "Dark Pit's Theme - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "KKqyh5DweSc",
-                "title": "In the Space - Pirate Ship - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "It8UBlCS7Gc",
-                "title": "Boss Battle 1 (Kid Icarus) - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "ZsDHzAzPBEg",
+                "video_id": "EISvBVk3e08",
                 "title": "Wrath of the Reset Bomb - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "i6EOXwiv-VY",
+                "video_id": "D5cDMEMmaVk",
+                "title": "Dark Pit's Theme - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "5Q1SQoIKWt8",
+                "title": "In the Space/Pirate Ship - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "uwA5yelNbEQ",
+                "title": "Boss Battle 1 - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "4pAisC0gmes",
+                "title": "Dark Pit - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "fXci-7yVMcA",
+                "title": "Wrath of the Reset Bomb (Original) - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "RcKVnfYxS20",
                 "title": "WarioWare, Inc. - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "zKF2-2iP3LI",
-                "title": "Ashley's Song - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "RebU4TiQPQI",
+                "video_id": "RXxsxt9J6M4",
                 "title": "Ashley's Song (JP) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "v6EBanZ_oog",
+                "video_id": "IdYg9cq7wxk",
                 "title": "Main Theme (Pikmin) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "f_i9LnkRGF8",
-                "title": "Stage Select (Pikmin) - Super Smash Bros. for 3DS"
+                "video_id": "NpauvpnRHf0",
+                "title": "Stage Select - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "KFj_GDiZMdo",
-                "title": "Jogging / Countdown Theme - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "BUJm8v-9KTQ",
-                "title": "Minor Circuit Theme - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "1fTxn003LlI",
-                "title": "Gaur Plain - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "I_--ZHEZG04",
-                "title": "You Will Know Our Names - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "9arTqd5U6_I",
-                "title": "Mechanical Rhythm - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "wBYIAQig1I0",
+                "video_id": "0tz7YYhp8ZQ",
                 "title": "Tortimer Island Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "h0_bgoWI_gw",
+                "video_id": "UTavROC9LRA",
                 "title": "Kapp'n's Song - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "WfW2mZPuvbs",
-                "title": "The City (Animal Crossing) - Super Smash Bros. for 3DS"
+                "video_id": "r_0_umi8E5c",
+                "title": "Running / Countdown - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "ZAxwhBLai2s",
-                "title": "Island Tour / Daytime Minigame (Animal Crossing) - Super Smash Bros. for 3DS"
+                "video_id": "KW1Ayg_plL0",
+                "title": "Minor Circuit Theme - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "AttC75nHzE8",
-                "title": "Balloon Fight Medley - Super Smash Bros. for 3DS"
+                "video_id": "bRDcqGarTOg",
+                "title": "Gaur Plain - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "mDDlkUn-GK0",
-                "title": "Balloon Trip - Super Smash Bros. for 3DS"
+                "video_id": "7Ad19-RIbZQ",
+                "title": "You Will Know Our Names - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "pjkH9av6AFc",
-                "title": "Bath Time Theme - Super Smash Bros. for 3DS"
+                "video_id": "goZQgAvmJr4",
+                "title": "Mechanical Rhythm - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "D85Xnd-uhww",
-                "title": "Bath Time Theme (Vocal Mix) - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "tIPmeXOZRPs",
-                "title": "Dark Lord - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "o_dAKML0Ap0",
-                "title": "Save the World, Heroes! - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "MU62jPPhD2s",
+                "video_id": "vz_DJGg9DKc",
                 "title": "Tomodachi Life - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "O3uxkNqMmrw",
-                "title": "PictoChat - Super Smash Bros. for 3DS"
+                "video_id": "Cs-HqaWR5ZA",
+                "title": "Mii Channel - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "cXpaCq27SK8",
-                "title": "Mii Plaza - Super Smash Bros. for 3DS"
+                "video_id": "0wWEnz3x2Lk",
+                "title": "Dark Lord - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "BTVO7rCRwyI",
+                "video_id": "YdSVa2WMOFA",
+                "title": "Save the World, Heroes! - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "tpByb4YFk8U",
+                "title": "Bath Time (Vocal Mix) - Super Smash Bros. for 3DS"
+            },
+            {
+                "video_id": "FDVDPslOzcA",
                 "title": "The Mysterious Murasame Castle Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "z29Pg8vQOhs",
+                "video_id": "zn3ATwPDlDs",
                 "title": "Tetris: Type A - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "llLsdf9gEKM",
+                "video_id": "JQL1L3ZJg-I",
                 "title": "Green Hill Zone - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "BwEN-HwiWOo",
+                "video_id": "MviKbgQnpAw",
                 "title": "Live & Learn - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "cI_InaOAi6w",
+                "video_id": "0-46fmthZsM",
                 "title": "Mega Man 2 Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "XoAuBbVmt08",
+                "video_id": "CP6HQBs_Kno",
                 "title": "Mega Man 2 Retro Medley - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "MYiP0WmxPLA",
-                "title": "Air Man Stage (Mega Man 2) - Super Smash Bros. for 3DS"
+                "video_id": "foU-P6oihD4",
+                "title": "Airman Stage - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "V5a4gPDk6VE",
-                "title": "Spark Man Stage - Super Smash Bros. for 3DS"
+                "video_id": "y09hkjkiKHE",
+                "title": "Sparkman Stage - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "P2gqUb8yzYc",
-                "title": "PAC-MAN - Super Smash Bros. for 3DS"
+                "video_id": "cjBVUS_BpMI",
+                "title": "PAC MAN - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "kCQOz7oz380",
-                "title": "PAC-MAN (Club Mix) - Super Smash Bros. for 3DS"
+                "video_id": "dPj0-X7u22Y",
+                "title": "PAC MAN (Club Mix) - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "7jKa_WS_w8g",
-                "title": "Pac-Man's Park / Block Town - Super Smash Bros. for 3DS"
+                "video_id": "JHjN8ptLf20",
+                "title": "PAC MAN'S PARK / BLOCK PLAZA - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "lERiyg5SPUw",
-                "title": "Multi-Man Smash - Super Smash Bros. for 3DS"
+                "video_id": "yG0MH9VcocE",
+                "title": "Multi Man Smash - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "ZT_SUp2pvpg",
+                "video_id": "J_Syf4SWnqw",
                 "title": "Cruel Smash - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "QtcO_WmKfek",
-                "title": "Credits (Super Smash Bros.): Ver. 2 - Super Smash Bros. for 3DS"
+                "video_id": "L_hKnR1FbMw",
+                "title": "Staff Credits (Super Smash Bros.) Ver 2 - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "FVNCkJB3-L4",
+                "video_id": "nsLMUD4yxVo",
                 "title": "Boss Battle - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "kvNxKUNJRoY",
+                "video_id": "T6iUnrjXeF4",
                 "title": "Master Hand - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "9lV8Jht27uA",
+                "video_id": "SPqIl1ZOJZ0",
                 "title": "Master Core - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "5YrFT1Ti1Bo",
-                "title": "Wifi Waiting Room - Super Smash Bros. for 3DS"
+                "video_id": "RMcKxlf-OHE",
+                "title": "Practice Stage - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "WKN-ERUi1ks",
+                "video_id": "_IbGo4V9fCg",
                 "title": "Classic: Map - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "tVwubnJ4qIc",
+                "video_id": "zWR0E1cPYKw",
                 "title": "Classic: Results - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "mu40EDLmVsY",
-                "title": "Classic / All-Star Mode: Final Results - Super Smash Bros. for 3DS"
+                "video_id": "M0jRp0GZRyY",
+                "title": "Classic: Final Results - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "M4dlrSuW2rc",
-                "title": "Classic: Fail - Super Smash Bros. for 3DS"
+                "video_id": "pGME6BVA_uM",
+                "title": "Classic: Failure - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "9ZotZxVzj8o",
-                "title": "All-Star Rest Area - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "hGEpE8Tucb0",
+                "video_id": "a0Ii-pRm5XQ",
                 "title": "Trophy Gallery - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "zSir1JkkGtI",
-                "title": "Trophy Shop - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "OVzgrLOjorY",
+                "video_id": "avfsqc3BPOo",
                 "title": "Trophy Rush - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "9F5a9IG2-Qk",
-                "title": "Replay/Album/Records - Super Smash Bros. for 3DS"
+                "video_id": "3jMNW6AaQR4",
+                "title": "Replay / Album / Records - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "enia8aGRrMc",
+                "video_id": "VAbk1oibuZ4",
                 "title": "StreetSmash - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "WJI_4SZ55A4",
-                "title": "How To Play - Super Smash Bros. for 3DS"
+                "video_id": "CUDo4kwyYTs",
+                "title": "How to Play - Super Smash Bros. for 3DS"
             },
             {
-                "video_id": "bZJx3klvjOM",
-                "title": "Results Screen - Super Smash Bros. for 3DS"
-            },
-            {
-                "video_id": "YJWCtyzX24M",
+                "video_id": "CCg1JrtTzVA",
                 "title": "Credits - Super Smash Bros. for 3DS"
             }
         ]
