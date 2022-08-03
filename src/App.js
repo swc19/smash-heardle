@@ -255,6 +255,10 @@ function App() {
 
   function handleEndScreen(stats){
     setEndScreen(true);
+    setPlaying(false);
+    setProgressPercent(0);
+    setCurrentSeconds(0);
+    player.current.seekTo(0);
     try{
       setGuessState(stats.guesses);
       setCorrect(stats.correct);
@@ -331,7 +335,13 @@ function App() {
     if(correct){
       return `You got it within ${times[idx-1]} second${idx > 1 ? "s" : ""}!`;
     } else {
-      return "You didn't get today's Smash Bros. Heardle. Try again tomorrow!";
+      if(randomActive){
+        return "You didn't get this one. Try again!";
+      } else if(calendarActive){
+        return "You didn't get this day's Smash Heardle. Try another day!";
+      } else {
+        return "You didn't get today's Smash Heardle. Try again tomorrow!"
+      }
     }
   }
 
@@ -349,12 +359,12 @@ function App() {
     }
     return (
       <div className="flex flex-row justify-center items-middle mb-4">
-        <div className={`h-4 w-4 mr-2 bg-${getColor(0)}`}></div>
-        <div className={`h-4 w-4 mr-2 bg-${getColor(1)}`}></div>
-        <div className={`h-4 w-4 mr-2 bg-${getColor(2)}`}></div>
-        <div className={`h-4 w-4 mr-2 bg-${getColor(3)}`}></div>
-        <div className={`h-4 w-4 mr-2 bg-${getColor(4)}`}></div>
-        <div className={`h-4 w-4 bg-${getColor(5)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(0)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(1)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(2)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(3)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(4)}`}></div>
+        <div className={`h-4 w-4 rounded-sm bg-${getColor(5)}`}></div>
       </div>
     )
     
