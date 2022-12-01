@@ -340,6 +340,7 @@ function App() {
             inSix: guessState.length === 6  && correct ? gameStats.inSix + 1 : gameStats.inSix,
             miss: guessState.length === 6 && !correct ? gameStats.miss + 1 : gameStats.miss,
             total: gameStats.total + 1,
+            random: gameStats.random,
           }
         } else {
           stats = {
