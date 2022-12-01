@@ -39,7 +39,7 @@ export default class Stats extends React.Component {
             return (
                 <div className="flex w-full h-full justify-center items-center absolute top-0 left-0 z-[100]">
                     <div className="w-full h-full bg-black opacity-70 absolute top-0 left-0"></div>
-                    <div className="w-2/3 xl:w-1/3 h-1/3 xl:h-1/2 bg-white z-30 opacity-95 text-black xl:text-lg -mt-64">
+                    <div className="w-2/3 xl:w-1/3 h-1/2 bg-white z-30 opacity-95 text-black xl:text-lg -mt-64">
                         <div className="grid grid-cols-6 items-center grid-rows-1 h-1/6 ">
                             <span className="col-start-3 col-span-2 text-xl">
                                 Stats 

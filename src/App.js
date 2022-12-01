@@ -704,7 +704,7 @@ function App() {
         </div>
       </div>
       {/* DEBUG CONTROLS */}
-      <button 
+      {/* <button 
           className="absolute bottom-0 left-0 mb-6 ml-6 bg-red-500 h-12 w-36 px-2 rounded-lg text-black"
           onClick={() => {
             localStorage.removeItem('smashHeardleStats');
@@ -713,7 +713,7 @@ function App() {
       className="absolute bottom-12 left-0 mb-8 ml-6 bg-blue-500 h-12 w-36 px-2 rounded-lg text-black"
       onClick={() => {
         console.log(localStorage.getItem('smashHeardleStats'));
-      }}>log local storage [debug]</button>
+      }}>log local storage [debug]</button> */}
     </div>
   );
 }
