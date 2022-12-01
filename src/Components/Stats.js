@@ -47,7 +47,6 @@ export default class Stats extends React.Component {
                             <button onClick={this.props.close} className="col-start-6 text-black h-8 w-4  text-2xl place-self-center">X</button>
                         </div>
                         <hr className=" bg-black h-1" />
-                        {console.log(this.props.stats)}
                         <div className="grid grid-cols-7 items-end justify-items-center grid-rows-1 h-1/3 pt-8 text-sm text-white">
                             <div className={`h-[calc(100%/${this.displayStats().one/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().one}</div>
                             <div className={`h-[calc(100%/${this.displayStats().two/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().two}</div>
