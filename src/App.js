@@ -436,7 +436,7 @@ function App() {
     setTimeout(() => {
       setShareVisible(false);
     }, 5000);
-    results += "\n\nhttps://smash-heardle.com"
+    results += "\n\n#SmashHeardle\nhttps://smash-heardle.com"
     return results;
   }
 
