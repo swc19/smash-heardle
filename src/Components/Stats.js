@@ -48,13 +48,13 @@ export default class Stats extends React.Component {
                         </div>
                         <hr className=" bg-black h-1" />
                         <div className="grid grid-cols-7 items-end justify-items-center grid-rows-1 h-1/3 pt-8 text-sm text-white">
-                            <div className={`h-[calc(100%/${this.displayStats().one/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().one}</div>
-                            <div className={`h-[calc(100%/${this.displayStats().two/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().two}</div>
-                            <div className={`h-[calc(100%/${this.displayStats().three/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().three}</div>
-                            <div className={`h-[calc(100%/${this.displayStats().four/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().four}</div>
-                            <div className={`h-[calc(100%/${this.displayStats().five/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().five}</div>
-                            <div className={`h-[calc(100%/${this.displayStats().six/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().six}</div>
-                            <div className={`h-[calc(100%/${this.displayStats().miss/this.displayStats().total})] w-1/2 bg-black rounded-t-md`}>{this.displayStats().miss}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().one/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().one}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().two/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().two}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().three/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().three}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().four/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().four}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().five/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().five}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().six/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().six}</div>
+                            <div style={{height: `calc(100%/${this.displayStats().miss/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().miss}</div>
                         </div>
                         <hr className=" bg-black h-1 -mt-0.5" />
                         <div className="grid grid-cols-7 items-center grid-rows-1 h-1/8">
