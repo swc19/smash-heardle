@@ -8,9 +8,10 @@ import PauseIcon from './Icons/PauseIcon.jsx';
 import Magnifying from './Icons/Magnifying.jsx';
 import Calendar from './Icons/Calendar.jsx';
 import Dice from './Icons/Dice.jsx';
-import Stats from './Icons/Stats.jsx';
+import StatsIcon from './Icons/StatsIcon.jsx';
 import Info from './Icons/Info.jsx';
 import About from './Components/About.js';
+import Stats from './Components/Stats.js';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
@@ -36,12 +37,15 @@ function App() {
   const [randomActive, setRandomActive] = useState(false);
   const [calendarActive, setCalendarActive] = useState(false);
   const [aboutActive, setAboutActive] = useState(false);
+  const [statsActive, setStatsActive] = useState(false);
+  const [resultDivs, setResultDivs] = useState([]);
 
 
   const times = [1, 2, 4, 8, 12, 18];
   const skip_times = [1, 2, 4, 4, 6];
 
   let all_songs_array = [];
+  // add these in order instead of a forEach across the original object
   all_songs["64"].songs.forEach(song => {
     all_songs_array.push(song.title)
   })
@@ -64,12 +68,14 @@ function App() {
 
 
   function getTodaysSeed(newDate){
+    // Get a constant seed for the day
     const today = newDate ? newDate : date;
     let seed = today.getFullYear()*318 + today.getMonth()*361 + today.getDate()*571;
     return seed;
   }
 
   function getTodaysGame(newDate, random=false){
+    // Get the game for the day, weights are in the switch statement
     let todays_seed = random ? Math.random() : getTodaysSeed(newDate);
     const value = seedrandom(todays_seed);
     const rng_game = Math.floor((value() * 5737 + 1233) % 100);
@@ -90,6 +96,7 @@ function App() {
   }
 
   function getTodaysSong(newDate, random=false){
+    // Get the song for the day
     let todays_seed = random ? Math.random() : getTodaysSeed(newDate);
     const value = seedrandom(todays_seed);
     const todays_game = getTodaysGame(newDate);
@@ -98,6 +105,7 @@ function App() {
   }
 
   function handleProgress(state){
+    // Update the progress bar, if in the end screen allow indefinite play
     if(!endScreen){
       if(state.playedSeconds >= currentLength){
         player.current.seekTo(0);
@@ -115,6 +123,7 @@ function App() {
   }
 
   function doNewSong(newDate, random=false){
+    // Generate a new song, either through the calendar or random feature
     if(random || newDate.toDateString() !== date.toDateString()){
       if(!random){
         setDate(newDate);
@@ -137,33 +146,38 @@ function App() {
       setPlaying(false);
       setEndScreen(false);
       if(!random && doneToday(newDate)){
+        // If the song is done on a calendar date, show the end screen
         handleEndScreen(JSON.parse(localStorage.getItem('smashHeardleStats'))[newDate.toDateString()]);
       }
     }
   }
 
   function filterSongs(value){
+    // Filter the songs based on the search input
     const re_value = value.replace(/\s+/g,"");
     let nameregex = new RegExp(".*" + re_value.split("").join(".*") + ".*",'i');
     let filtered = all_songs_array.filter(song => nameregex.test(song));
     filtered = filtered.map(song => {
+      // highlight the search term in the song name
       let split = song.split("");
       let lower = split.map(letter => letter.toLowerCase());
       let valuesplit = re_value.split("");
       let curr_index = 0;
       for(let i = 0; i < valuesplit.length; i++){
+        // generate the highlighted spans for each letter
+        // only grab the first instance of the letter based on the search input
         const first_index = lower.indexOf(valuesplit[i].toLowerCase(), curr_index);
         for(let j = 0; j < split.length; j++){
           if(typeof split[j] === 'string' && split[j].toLowerCase() === valuesplit[i].toLowerCase() && j === first_index){
             curr_index = j + 1;
             if(j > 0 && split[j-1] === " " && j < split.length - 1 && split[j+1] === " "){
-              split[j] = <span className="bg-gray-400 text-black">{split[j]}</span>;
+              split[j] = <span key={split[j] + j} className="bg-gray-400 text-black">{split[j]}</span>;
             } else if(j > 0 && split[j-1] === " "){
-              split[j] = <span className="bg-gray-400 text-black">{split[j]}</span>;
+              split[j] = <span key={split[j] + j} className="bg-gray-400 text-black">{split[j]}</span>;
             } else if(j < split.length - 1 && split[j+1] === " "){
-              split[j] = <span className="bg-gray-400 text-black">{split[j]}</span>;
+              split[j] = <span key={split[j] + j} className="bg-gray-400 text-black">{split[j]}</span>;
             } else {
-              split[j] = <span className="bg-gray-400 text-black">{split[j]}</span>;
+              split[j] = <span key={split[j] + j} className="bg-gray-400 text-black">{split[j]}</span>;
             }
           }
         }
@@ -174,8 +188,9 @@ function App() {
       return marked;
     })
 
-    //sort filtered by the most consecutive objects in the array
     function mostConsecutive(arr){
+      // sort filtered by the most consecutive objects in the array
+      // this provides better search results
       let max = 0;
       let count = 0
       for(let i=0; i<arr.length; i++){
@@ -193,11 +208,12 @@ function App() {
     filtered.sort((a, b) => {
       return mostConsecutive(b) - mostConsecutive(a);
     });
-
     setFilteredSongs(filtered);
   }
 
   function cleanUp(html){
+    // clean up the song name for inputting into the search bar
+    // otherwise you get [object Object] everywhere
     let cleaned = html.map(letter => {
       if(typeof letter === 'string'){
         return letter;
@@ -221,85 +237,178 @@ function App() {
   }
 
   function processGuess(guess, skip=false){
+    // process a guess based on the search input, or the skip button
     const wrong_guess = `❌  ${guess}`;
     const right_guess = `✔️  ${guess}`;
     let skip_guess;
     setCurrentLength(times[guesses.length+1] || 18);
     if(skip){
+      // handle skip
       skip_guess = `🔳  Skipped`;
       setGuesses([...guesses, skip_guess]);
       setCurrentGuesses([...currentGuesses, skip_guess]);
       setGuessState([...guessState, 2])
       if(guesses.length === 5){
+        // if skip on the last guess, go to end
         handleEndScreen();
       }
       return;
     }
     const updated_guess = guess === song.title ? right_guess : wrong_guess;
     if(updated_guess === right_guess){
+      // if right, end early and show the end screen
       setGuessState([...guessState, 1]);
       setGuesses([...guesses, updated_guess]);
       handleEndScreen();
       setCorrect(true);
       return;
     } else {
+      // if wrong, do normal logic
       setGuessState([...guessState, 0]);
       setGuesses([...guesses, updated_guess]);
       setCurrentGuesses([...currentGuesses, true]);
       setCorrect(false);
       if(guesses.length === 5){
+        // if wrong on last guess, go to end screen
         handleEndScreen();
       }
     }
   }
 
   function handleEndScreen(stats){
+    // get to the end screen
     setEndScreen(true);
     setPlaying(false);
     setProgressPercent(0);
     setCurrentSeconds(0);
-    player.current.seekTo(0);
     try{
+      // if loading a previously guessed day or refreshing on the same day, show the proper stats
       setGuessState(stats.guesses);
       setCorrect(stats.correct);
-    } catch(e){}
+      postResults();
+    } catch(e){
+      // only errors if there isn't stats for today, so do nothing
+    }
   }
 
   function doneToday(newDate){
+    // check if user has completed the song on this day
     const this_day = newDate.toDateString();
     try{
       if(JSON.parse(localStorage.getItem('smashHeardleStats'))[this_day]){
         return true;
       }
-    } catch(e){}
+    } catch(e){
+      // error if there aren't stats for this day
+    }
     return false;
   }
 
   function getCompleted(){
+    // get the list of dates that the user has completed the heardle
+    // this is for the calendar popper highlighting
     let completed = [];
     try{
       Object.keys(JSON.parse(localStorage.getItem('smashHeardleStats'))).forEach(day => {
-        completed.push(new Date(day));
+        if(day !== "Stats"){
+          completed.push(new Date(day));
+        }
       });
     } catch(e){}
     return completed;
   }
 
   function writeStats(){
+    // write stats to local storage
+    // also writes the initial stats if they don't exist
     let stats = {};
-    try{
-      if(localStorage.getItem('smashHeardleStats')){
-        stats = JSON.parse(localStorage.getItem('smashHeardleStats'));
+    if(!randomActive){
+      try{
+        if(localStorage.getItem('smashHeardleStats')){
+          stats = JSON.parse(localStorage.getItem('smashHeardleStats'));
+        }
+      } catch(e){}
+      if(!stats[date.toDateString()]){
+        if(stats["Stats"]){
+          const gameStats = stats["Stats"];
+          stats["Stats"] = {
+            inOne: guessState.length === 1 ? gameStats.inOne + 1 : gameStats.inOne,
+            inTwo: guessState.length === 2 ? gameStats.inTwo + 1 : gameStats.inTwo,
+            inThree: guessState.length === 3 ? gameStats.inThree + 1 : gameStats.inThree,
+            inFour: guessState.length === 4 ? gameStats.inFour + 1 : gameStats.inFour,
+            inFive: guessState.length === 5  && correct ? gameStats.inFive + 1 : gameStats.inFive,
+            inSix: guessState.length === 6  && correct ? gameStats.inSix + 1 : gameStats.inSix,
+            miss: guessState.length === 6 && !correct ? gameStats.miss + 1 : gameStats.miss,
+            total: gameStats.total + 1,
+          }
+        } else {
+          stats = {
+            Stats: {
+              inOne: guessState.length === 1 ? 1 : 0,
+              inTwo: guessState.length === 2 ? 1 : 0,
+              inThree: guessState.length === 3 ? 1 : 0,
+              inFour: guessState.length === 4 ? 1 : 0,
+              inFive: guessState.length === 5 ? 1 : 0,
+              inSix: guessState.length === 6 && correct ? 1 : 0,
+              miss: guessState.length === 6 && !correct ? 1 : 0, 
+              total: 1,
+              random: {
+                numCompleted: 0,
+                numWon: 0
+              } 
+            }
+          }
+        }
       }
-    } catch(e){}
-    stats[date.toDateString()] = {
-      guesses: guessState,
-      correct: correct
+      stats[date.toDateString()] = {
+        guesses: guessState,
+        correct: correct
+      }
+      localStorage.setItem('smashHeardleStats', JSON.stringify(stats));
+    } else {
+      // write random stats
+      console.log("completed random")
+      try{
+        if(localStorage.getItem('smashHeardleStats')){
+          stats = JSON.parse(localStorage.getItem('smashHeardleStats'));
+          stats["Stats"].random = {
+            numCompleted: stats["Stats"].random.numCompleted + 1,
+            numWon: correct ? stats["Stats"].random.numWon + 1 : stats["Stats"].random.numWon
+          }
+        } else {
+          stats = {
+            Stats: {
+              inOne: 0,
+              inTwo: 0,
+              inThree: 0,
+              inFour: 0,
+              inFive: 0,
+              inSix: 0,
+              miss: 0, 
+              total: 0,
+              random: {
+                numCompleted: 1,
+                numWon: correct ? 1 : 0
+              } 
+            }
+          }
+        }
+      } catch(e){}
+      localStorage.setItem('smashHeardleStats', JSON.stringify(stats));
     }
-    localStorage.setItem('smashHeardleStats', JSON.stringify(stats));
+  }
+
+  function getStats(){
+    if(localStorage.getItem('smashHeardleStats')){
+      return localStorage.getItem('smashHeardleStats')
+    }
+    else{
+      return null;
+    }
   }
 
   function writeResults(){
+    // writes the results to the clipboard, when user clicks the "Share" button on end screen
     let results = 'Super Smash Bros. Heardle \n\n'
     if(correct){
       results+="🔊"
@@ -322,19 +431,22 @@ function App() {
           break;
       }
     }
-    setShareVisible(true);
+    setShareVisible(true); // pop up the "copied to clipboard" message
     setTimeout(() => {
       setShareVisible(false);
     }, 5000);
-    // results += "\n\nurl here"
+    results += "\n\nhttps://smash-heardle.com"
     return results;
   }
 
   function getCorrect(){
+    // generate the message for the end screen
     const idx = guessState.indexOf(1)+1;
     if(correct){
+      // can also check if idx is not -1 (there's a correct answer)
       return `You got it within ${times[idx-1]} second${idx > 1 ? "s" : ""}!`;
     } else {
+      // custom messages based on different modes
       if(randomActive){
         return "You didn't get this one. Try again!";
       } else if(calendarActive){
@@ -346,45 +458,56 @@ function App() {
   }
 
   function postResults(){
+    // generate the divs for the end screen
     function getColor(i){
       if(guessState[i] === 0){
-        return "red-500";
+        return "bg-red-500"; // wrong
       } else if(guessState[i] === 1){
-        return "green-500";
+        return "bg-green-500"; // right
       } else if(guessState[i] === 2){
-        return "gray-500";
+        return "bg-white"; // skip
       } else {
-        return "gray-900";
+        // "black out" the answer if they didn't make it to this guess yet
+        return "bg-black";
       }
     }
-    return (
+    setResultDivs([
       <div className="flex flex-row justify-center items-middle mb-4">
-        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(0)}`}></div>
-        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(1)}`}></div>
-        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(2)}`}></div>
-        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(3)}`}></div>
-        <div className={`h-4 w-4 rounded-sm mr-1 bg-${getColor(4)}`}></div>
-        <div className={`h-4 w-4 rounded-sm bg-${getColor(5)}`}></div>
-      </div>
-    )
-    
+        <div className={`h-4 w-4 rounded-sm mr-1 ${getColor(0)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 ${getColor(1)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 ${getColor(2)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 ${getColor(3)}`}></div>
+        <div className={`h-4 w-4 rounded-sm mr-1 ${getColor(4)}`}></div>
+        <div className={`h-4 w-4 rounded-sm ${getColor(5)}`}></div>
+      </div>]);
   }
   function closeAbout(){
+    // function for the about component
     setAboutActive(false);
+  }
+  function closeStats(){
+    // function for the share component
+    setStatsActive(false);
   }
 
   useEffect(() => {
     document.title = 'Smash Bros. Heardle'
-    try{
-      if(doneToday(date)){
-        handleEndScreen(JSON.parse(localStorage.getItem('smashHeardleStats'))[date.toDateString()]);
-      }
-    } catch(e){}
     setSong(getTodaysSong());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
+    try{
+      const todays_stats = JSON.parse(localStorage.getItem('smashHeardleStats'))[date.toDateString()];
+      if(doneToday(date) && !randomActive){
+        handleEndScreen(todays_stats);
+      }
+    } catch(e){}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [date])
+
+  useEffect(() => {
+    // close out the search results if user clicks outside to replay the song or whatever
     const clickOutside = (e) => {
       if(search.current && !search.current.contains(e.target)){
         setSearching(false);
@@ -397,8 +520,11 @@ function App() {
   }, [search]);
   
   useEffect(() => {
-    if(guessState.length > 0 && endScreen && !randomActive){
+    // ensure that the stats are written correctly
+    // without this there's possibilities for race conditions
+    if(guessState.length > 0 && endScreen){
       writeStats();
+      postResults();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [endScreen])
@@ -407,6 +533,7 @@ function App() {
     <div className="text-center bg-slate-800 min-h-screen text-white flex justify-center">
       {/* Main Wrapper */}
       <div><About visible={aboutActive} close={closeAbout} /></div> 
+      <div><Stats visible={statsActive} close={closeStats} stats = {getStats()}/></div>
       <div className="mb-10 relative w-full mt-4 xl:w-1/2 xl:my-10">
         {/* Content */}
         <div className="grid grid-cols-7 grid-rows-1 place-items-center relative z-50">
@@ -414,9 +541,11 @@ function App() {
           <button className="col-start-1" onClick={() => {
             setAboutActive(true);
           }}><Info /></button>
-          <button className="col-start-2 mr-8 xl:mr-16" onClick={()=> {
-            /* do stats popup */
-          }}><Stats /></button>
+          <button 
+            disabled={localStorage.getItem('smashHeardleStats') ? false : true} 
+            className="col-start-2 mr-8 xl:mr-16 disabled:opacity-50" onClick={()=> {
+            setStatsActive(true);
+          }}><StatsIcon /></button>
           <span className="col-start-3 col-span-3 w-full text-xl xl:text-3xl">Super Smash Bros. Heardle</span>
           <div>
             <DatePicker
@@ -449,9 +578,9 @@ function App() {
         </div>
         <div className={`${endScreen ? "" : "hidden"} relative mt-8 z-30 mx-8 text-lg bg-slate-800 pb-8`}>
           {/* End Screen */}
-          <div>Today's song was {song.title}</div>
+          <div>{randomActive ? "This " : "Today's "} song was {song.title}</div>
           <div className='my-4'>{getCorrect()}</div>
-          <div className="flex flex-row justify-center">{postResults()}</div>
+          <div className="flex flex-row justify-center">{resultDivs[0]}</div>
           <span className={`${shareVisible ? "" : "hidden"} flex justify-center opacity-75 text-sm `}>Copied to clipboard!</span>
           <button className='bg-green-600 rounded-lg w-16 h-8' onClick={() => {
             navigator.clipboard.writeText(writeResults());
@@ -574,6 +703,7 @@ function App() {
           <span className="absolute bottom-0 mb-52 text-lg">Loading Player...</span>}
         </div>
       </div>
+      {/* DEBUG CONTROLS */}
       <button 
           className="absolute bottom-0 left-0 mb-6 ml-6 bg-red-500 h-12 w-36 px-2 rounded-lg text-black"
           onClick={() => {
