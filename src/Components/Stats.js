@@ -47,14 +47,14 @@ export default class Stats extends React.Component {
                             <button onClick={this.props.close} className="col-start-6 text-black h-8 w-4  text-2xl place-self-center">X</button>
                         </div>
                         <hr className=" bg-black h-1" />
-                        <div className="grid grid-cols-7 items-end justify-items-center grid-rows-1 h-1/3 pt-8 text-sm text-white">
-                            <div style={{height: `calc(100%/${this.displayStats().one/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().one}</div>
-                            <div style={{height: `calc(100%/${this.displayStats().two/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().two}</div>
-                            <div style={{height: `calc(100%/${this.displayStats().three/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().three}</div>
-                            <div style={{height: `calc(100%/${this.displayStats().four/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().four}</div>
-                            <div style={{height: `calc(100%/${this.displayStats().five/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().five}</div>
-                            <div style={{height: `calc(100%/${this.displayStats().six/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().six}</div>
-                            <div style={{height: `calc(100%/${this.displayStats().miss/this.displayStats().total})`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().miss}</div>
+                        <div className="grid grid-cols-7 items-end justify-items-center grid-rows-1 h-1/3 pt-4 text-sm text-white">
+                            <div style={{height: `max(calc(100%*${this.displayStats().one/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().one}</div>
+                            <div style={{height: `max(calc(100%*${this.displayStats().two/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().two}</div>
+                            <div style={{height: `max(calc(100%*${this.displayStats().three/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().three}</div>
+                            <div style={{height: `max(calc(100%*${this.displayStats().four/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().four}</div>
+                            <div style={{height: `max(calc(100%*${this.displayStats().five/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().five}</div>
+                            <div style={{height: `max(calc(100%*${this.displayStats().six/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().six}</div>
+                            <div style={{height: `max(calc(100%*${this.displayStats().miss/this.displayStats().total}), 20%)`}} className={`w-1/2 bg-black rounded-t-md`}>{this.displayStats().miss}</div>
                         </div>
                         <hr className=" bg-black h-1 -mt-0.5" />
                         <div className="grid grid-cols-7 items-center grid-rows-1 h-1/8">
@@ -77,7 +77,7 @@ export default class Stats extends React.Component {
                                 Won
                             </div>
                             <div>
-                                {(this.displayStats().total - this.displayStats().miss)/(this.displayStats().total)*100}%<br />
+                                {+((this.displayStats().total - this.displayStats().miss)/(this.displayStats().total)*100).toFixed(2)}%<br />
                                 Win Rate
                             </div>
                         </div>
