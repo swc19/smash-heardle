@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState, useRef, useEffect} from 'react';
 import ReactPlayer from 'react-player';
 import seedrandom from 'seedrandom';
-import all_songs from './All.json';
+import all_songs from './filtered.json';
 import PlayIcon from './Icons/PlayIcon.jsx'
 import PauseIcon from './Icons/PauseIcon.jsx';
 import Magnifying from './Icons/Magnifying.jsx';
@@ -99,7 +99,7 @@ function App() {
     // Get the song for the day
     let todays_seed = random ? Math.random() : getTodaysSeed(newDate);
     const value = seedrandom(todays_seed);
-    const todays_game = getTodaysGame(newDate);
+    const todays_game = getTodaysGame(newDate, random);
     const rng_song = Math.floor((value() * 287333 + 231729) % all_songs[todays_game].songs.length);
     return all_songs[todays_game].songs[rng_song];
   }

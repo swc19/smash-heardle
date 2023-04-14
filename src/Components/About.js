@@ -26,7 +26,7 @@ export default class About extends React.Component {
                         </div>
                         <hr className=" bg-black h-1" />
                         <div className="p-4">
-                            This app is heavily inspired by <a href="https://heardle.app" className="underline">Heardle</a>. 
+                            This app is heavily inspired by Heardle (RIP). 
                             Currently, it includes songs from every Smash game, so expect duplicates, especially with Ultimate having such a huge soundtrack.
                         </div>
                         <div className="pl-4 pr-4 xl:pt-2">
